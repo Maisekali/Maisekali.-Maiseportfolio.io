@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineer Brian - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="container">
+      <h1>Engineer Brian Maisiba</h1>
+      <p>Web Designer | Developer | Writer | Engineer</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+      <a href="your-cv.pdf" download class="btn">Download CV</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <img src="https://assets.onecompiler.app/439mt7s83/439mt6gx3/PSX_20250215_124405.jpg" alt="Engineer Brian" class="profile-photo">
+      <p>
+        Hi, I'm Engineer Brian, a passionate web designer, developer, writer, and engineering designer. 
+        I specialize in creating innovative solutions and delivering high-quality work across multiple disciplines. 
+        Let's build something amazing together!
+      </p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="projects">
+        <!-- Web Design -->
+        <div class="project">
+          <h3>Web Design</h3>
+          <img src="https://assets.onecompiler.app/439mt7s83/439mt6gx3/MAISEWEB.jpg" alt="Web Design Project">
+        </div>
+        <!-- Web Development -->
+        <div class="project">
+          <h3>Web Development</h3>
+          <img src="https://assets.onecompiler.app/439mt7s83/439mt6gx3/download%20(10).jpg" alt="Web Development Project">
+        </div>
+        <!-- Writing -->
+        <div class="project">
+          <h3>Writing</h3>
+          <img src="https://assets.onecompiler.app/439mt7s83/439mt6gx3/download%20(11).jpg" alt="Writing Project">
+        </div>
+        <!-- Engineering Design -->
+        <div class="project">
+          <h3>Engineering Design</h3>
+          <img src="https://assets.onecompiler.app/439mt7s83/439mt6gx3/download%20(12).jpg" alt="Engineering Design Project">
+          <p>I am a highly skilled Electrical and Telecommunication Systems Designer with expertise in creating innovative, efficient, and scalable solutions for modern communication and energy systems. My work integrates advanced signal processing, robust networking capabilities, and cutting-edge IoT technologies to design systems that are reliable, secure, and future-proof.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>Download my resume to learn more about my experience and skills.</p>
+      <a href="mycvonline1.docx" download class="btn">Download CV</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="send_email.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Maiseooj. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
